@@ -1,9 +1,24 @@
 # Theory 
-The sampling theorem, also known as the Nyquist-Shannon theorem, states that a continuous
-time signal can be completely reconstructed from its samples if it is sampled at a rate greater 
-than twice its highest frequency component, known as the Nyquist rate. Mathematically, if 
-the maximum frequency of the signal is fmax,the sampling frequency fs  must satisfy 
-fs≥2fmax  to avoid loss of information and prevent aliasing.
+Circular convolution is a mathematical operation used primarily in signal processing. It 
+involves wrapping one signal around a circular buffer and performing the convolution 
+operation on it, often used when signals are periodic or when working with discrete Fourier 
+transforms (DFT). This technique ensures that the result maintains periodicity by aligning the 
+endpoints of signals. It is computationally efficient and widely applied in fast algorithms like 
+the Fast Fourier Transform (FFT). It can be performed by 3 methods: 
+Using FFT (Fast Fourier Transform): 
+• Circular convolution is performed by transforming the sequences to the frequency 
+domain using FFT, multiplying them element-wise, and transforming them back using 
+the inverse FFT. 
+                     
+## Concentric Circle Method: 
+• This is a graphical method where one sequence is placed in a circular pattern, and the 
+other sequence is rotated around it. The inner product of corresponding values after 
+each rotation gives the result. 
+## Matrix Method: 
+• Circular convolution can be represented as matrix multiplication, where one sequence 
+is arranged in a circulant matrix, and the other is a column vector. 
+               y=C⋅h 
+where C is the circulant matrix formed from x, and h is the vector.
 
 # OSERVATION
 ![image](https://github.com/user-attachments/assets/981aff29-f4a5-4fbf-9e90-ccab41e15229)
