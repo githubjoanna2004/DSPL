@@ -7,7 +7,9 @@ must be at least twice the sine wave frequency (Nyquist rate) to accurately reco
 enabling continuous playback or analysis of the sine wave in digital form. The DSP kit uses this data to recreate the wave, outputting a sequence of voltage changes
 that form a smooth sine wave signal, which can then be used in applications like sound synthesis, signal testing, and various communications tasks.
 
+# OBSERVATION
 
+![Screenshot 2024-11-09 200801](https://github.com/user-attachments/assets/c6502cf5-aad0-4ffc-8b49-b71f3e2a5837)
 
 
 
